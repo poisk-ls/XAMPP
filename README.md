@@ -41,8 +41,8 @@ These are the following commands which can be used to install XAMP Serevr in And
   git clone https://github.com/poisk-ls/XAMPP.git
   ```
   
-- One Line Installion..
- - apt update && apt upgrade -y && apt install git -y && git clone https://github.com/poisk-ls/xampp.git
+- **One Line Installion..**
+- apt update && apt upgrade -y && apt install git -y && git clone https://github.com/poisk-ls/XAMPP.git
   
 ## Execution
 These are the commands which can be used to execute XAMPP Serevr in Android (Termux).

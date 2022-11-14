@@ -9,12 +9,12 @@ wht="\e[0m"
 banner(){
 clear
 echo -e ${rd}
-echo "        ██   ██  █████  ███    ███ ██████  ██████ "
+echo "        ██   ██  █████  ███    ███ ██████  ██████  "
 echo "         ██ ██  ██   ██ ████  ████ ██   ██ ██   ██ "
-echo "          ███   ███████ ██ ████ ██ ██████ ██████ "
-echo "         ██ ██  ██   ██ ██  ██  ██ ██      ██ "
-echo "        ██   ██ ██   ██ ██      ██ ██      ██ "
-echo -e "                        ${cy} -By Jade poisk-ls"
+echo "          ███   ███████ ██ ████ ██ ██████  ██████  "
+echo "         ██ ██  ██   ██ ██  ██  ██ ██      ██      "
+echo "        ██   ██ ██   ██ ██      ██ ██      ██      "
+echo -e "                      ${cy} •pro• Jade poisk-ls "
 echo
 echo -e "${yl}    ) --------------- ${gr}Start${yl} --------------- ("
 echo -e "${yl}  ) --------------- ${gr}Your Own${yl} --------------- ("
@@ -238,7 +238,7 @@ gui(){
 	    kill_pid;;
 
 	"99" | "exit" )
-	    echo -e "Bye - Bye!!!\n";;
+	    echo -e "Bye - keep safe..\n";;
 
 	* )
 	    help;;

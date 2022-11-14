@@ -9,12 +9,12 @@ wht="\e[0m"
 banner(){
 clear
 echo -e ${rd}
-echo "        ██   ██  █████  ███    ███ ██████  "
-echo "         ██ ██  ██   ██ ████  ████ ██   ██ "
-echo "          ███   ███████ ██ ████ ██ ██████  "
-echo "         ██ ██  ██   ██ ██  ██  ██ ██      "
-echo "        ██   ██ ██   ██ ██      ██ ██      "
-echo -e "                        ${cy} -By Adarsh Addee"
+echo "        ██   ██  █████  ███    ███ ██████  ██████ "
+echo "         ██ ██  ██   ██ ████  ████ ██   ██ ██   ██ "
+echo "          ███   ███████ ██ ████ ██ ██████ ██████ "
+echo "         ██ ██  ██   ██ ██  ██  ██ ██       ██ "
+echo "        ██   ██ ██   ██ ██      ██ ██       ██ "
+echo -e "                        ${cy} -By Jade poisk-ls"
 echo
 echo -e "${yl}    ) --------------- ${gr}Start${yl} --------------- ("
 echo -e "${yl}  ) --------------- ${gr}Your Own${yl} --------------- ("
@@ -29,9 +29,9 @@ banner
 
 cat << EOF
 
-[*] XAMP: Start Your Own Server with XAMP in Android!!!!
+[*] XAMPP: Start Your Own Server with XAMPP in Android...
 
-usage: xamp [argss]
+usage: xampp [argss]
 
 args:
   -h, --help              show help message and exit
@@ -48,11 +48,11 @@ stop service:
   -s, --stop              stop serving localhost service
 
 
-[!] Note: Just Type xamp to start xamp in GUI Mode!!!
+[!] Note: Just Type xampp to start xampp in GUI Mode!!!
 
 [!] Type localhost:8080 in browser to start local server!!!
 
-[!] Xamp is a localserver hosting script which is very useful & made for android users (Termux)!!!
+[!] XAMPP is a localserver hosting script which is very useful & made for android users (Termux)!!!
 
 EOF
 
@@ -60,7 +60,7 @@ EOF
 
 version(){
     banner
-    echo "[*] xamp v1.0"
+    echo "[*] xampp v1.0"
     echo
 }
 
@@ -124,22 +124,22 @@ start_phpserver(){
         echo -e "${rd}[${yl}!${rd}] ${yl}PHP Found!!!"
         loading
     fi
-    if [ ! -d ${PREFIX}/share/xamp ]; then
-        mkdir ${PREFIX}/share/xamp
+    if [ ! -d ${PREFIX}/share/xampp ]; then
+        mkdir ${PREFIX}/share/xampp
     fi
-    if [ ! -d ${PREFIX}/share/xamp/www ]; then
-	mkdir ${PREFIX}/share/xamp/www
+    if [ ! -d ${PREFIX}/share/xampp/www ]; then
+	mkdir ${PREFIX}/share/xampp/www
     fi
-    if [ ! -f ${PREFIX}/share/xamp/www/index.html ]; then
-	touch ${PREFIX}/share/xamp/www/index.html
+    if [ ! -f ${PREFIX}/share/xampp/www/index.html ]; then
+	touch ${PREFIX}/share/xampp/www/index.html
     fi
 
     echo -e "\n${rd}[${yl}*${rd}]${gr} PHP Server Started Successfully!!!\n"
     sleep 0.5
-    echo -e "${rd}[${yl}!${rd}] ${wht}You can make changes in ${cy}/share/xamp/www/index.html\n"
+    echo -e "${rd}[${yl}!${rd}] ${wht}You can make changes in ${cy}/share/xampp/www/index.html\n"
     echo -e "${rd}[${yl}!${rd}] ${gr}Type 127.0.0.1:8080 in browser!!!\n\n"
     sleep 0.5
-    php -S localhost:8080 ${PREFIX}/share/xamp/www/index.html
+    php -S localhost:8080 ${PREFIX}/share/xampp/www/index.html
 }
 
 start_apache(){
@@ -249,7 +249,7 @@ gui(){
 setup(){
 
     if [ ! -f $PREFIX/bin/xamp ]; then
-	cp -f xamp $PREFIX/bin
+	cp -f xampp $PREFIX/bin
     fi
 
     case $1 in

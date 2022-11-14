@@ -42,13 +42,15 @@ These are the following commands which can be used to install XAMP Serevr in And
   ```
   
 - One Line Installion..
- - apt update && apt upgrade -y && apt install git -y && git clone https://github.com/poisk-ls/XAMPP.git
+ - apt update && apt upgrade -y && apt install git -y && git clone https://github.com/poisk-ls/xampp.git
   
 ## Execution
 These are the commands which can be used to execute XAMPP Serevr in Android (Termux).
-- cd XAMPP
-- chmod +x xampp
+- cd xampp
+- chmod 777 xampp
 
+>**(run)**
+>- xampp
 
 ## Modes
 XAMPP - Server Supports GUI & CLI Mode as Well!
@@ -104,8 +106,11 @@ All these dependencies are going to install automatically when you run <b>xamp</
 ## Message 
 You can use xampp server without using ``./`` also. As this may help you to start services more faster.
 
+#
+<p align="center"><b>pwd</b></p>
 
-
+**/data/data/com.termux/files/usr/share/apache2/default-site/htdocs**
+#
 
 
 

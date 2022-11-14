@@ -46,18 +46,16 @@ These are the following commands which can be used to install XAMP Serevr in And
   
 ## Execution
 These are the commands which can be used to execute XAMPP Serevr in Android (Termux).
-```
 - cd XAMPP
 - chmod +x xampp
-```
+
 
 ## Modes
 XAMPP - Server Supports GUI & CLI Mode as Well!
 - ### GUI Mode!
   XAMPP - Server in GUI Mode can be started with:
-  ```
-  ./xampp
-  ```
+- ./xampp
+
 - ### CLI Mode!
   XAMPP - Server  in CLI Mode have some arguments!
   ```
@@ -103,7 +101,7 @@ These are the following dependencies which are used by XAMP!
 
 All these dependencies are going to install automatically when you run <b>xamp</b> server for the first time.
 
-## Mesaage
+## Message 
 You can use xampp server without using ``./`` also. As this may help you to start services more faster.
 
 

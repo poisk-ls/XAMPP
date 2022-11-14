@@ -46,7 +46,7 @@ These are the following commands which can be used to install XAMP Serevr in And
   
 ## Execution
 These are the commands which can be used to execute XAMPP Serevr in Android (Termux).
-- cd xampp
+- cd XAMPP
 - chmod 777 xampp
 
 >**(run)**

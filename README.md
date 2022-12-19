@@ -62,7 +62,7 @@ XAMPP is a begginer friendly server for android which host(s) localhost(s) on an
 
 
 <details>
-    <summary>&#9749 <b>[ pwd ]</b></summary><br/>
+    <summary>&#19290<b>[ pwd ]</b></summary><br/>
 <p>/data/data/com.termux/files/usr/share/apache2/default-site/htdocs</p>
 
 </details>
